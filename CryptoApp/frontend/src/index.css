@@ -1,0 +1,10 @@
+body {
+    background-color: #010118;
+    overflow-x: hidden; 
+}
+
+@media (max-width: 600px) {
+    .body {
+        flex-direction: column;
+    }
+}

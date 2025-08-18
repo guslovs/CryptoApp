@@ -1,0 +1,22 @@
+export const JOBS = [
+  { title: "(Senior) Data Engineer", location: "Shenzen, China", link: "https://jobs.lever.co/crypto/29dce655-2e20-4146-9227-0073c46b0fba" },
+  { title: "(Senior) Data Engineer", location: "Hong Kong, Hong Kong SAR", link: "https://jobs.lever.co/crypto/43169715-739f-4bf5-9359-0153390f710c" },
+  { title: "(Senior) Data Engineer", location: "Taipei, Taiwan", link: "https://jobs.lever.co/crypto/97221036-a770-4982-a28e-cc17fc6ba876" },
+  { title: "(Senior) Java Developer - MainApp/Rewards", location: "Taipei, Taiwan", link: "https://jobs.lever.co/crypto/16d5d21f-7d4d-495c-8a25-609a4ce08c9a" },
+  { title: "(Senior) Java Developer - MainApp/Rewards", location: "Shenzen, China", link: "https://jobs.lever.co/crypto/1c32e574-56f0-4666-a7cd-be84cd2ce0ab" },
+  { title: "(Senior) Product Manager - Crypto Payments", location: "Singapore, Singapore", link: "https://jobs.lever.co/crypto/1b305bcc-6d6e-4b75-b6d7-db716e6ad02f" },
+  { title: "(Senior) Product Manager - Crypto Payments", location: "Melbourne, Australia", link: "https://jobs.lever.co/crypto/23beaec2-f445-4bd1-b5f0-a6b39a7cf73f" },
+  { title: "(Senior) Product Manager - Crypto Payments", location: "Hong Kong, Hong Kong SAR", link: "https://jobs.lever.co/crypto/be9d58d6-d4b7-4d7c-a0df-62c7fe01e246" },
+  { title: "(Senior) Product Manager - Crypto Payments", location: "United States", link: "https://jobs.lever.co/crypto/c78e36da-ddab-40a5-b31a-45b318ce75c3" },
+  { title: "(Senior) Product Manager - Sports", location: "London, United Kingdom", link: "https://jobs.lever.co/crypto/abb163d8-0432-453d-b863-7d3ddad2e54b" },
+  { title: "(Senior) Product Manager - Sports", location: "Unites States", link: "https://jobs.lever.co/crypto/d4798fbb-0ed3-4055-bde5-c62a542c1203" },
+  { title: "(Senior) Product Manager - Trading", location: "Singapore, Singapore", link: "https://jobs.lever.co/crypto/2aade1c8-5ac8-423f-9664-fb37f25afb12" },
+  { title: "(Senior) Product Manager - Trading", location: "Dubai, United Arab Emirates", link: "https://jobs.lever.co/crypto/9ebf2d46-862b-4c83-bb69-6fa136ca5b45" },
+  { title: "(Senior) Quality Assurance Automation Engineer (Crypto APP)", location: "Taipei, Taiwan", link: "https://jobs.lever.co/crypto/43a424c9-86f3-4aa1-8157-a2e218696975" },
+  { title: "(Senior) Quality Assurance Automation Engineer (Crypto APP)", location: "Shenzen, China", link: "https://jobs.lever.co/crypto/51f1b426-22cb-47a4-91a2-1b4aea0a4667" },
+  { title: "3D Designer", location: "Hong Kong, Hong Kong SAR", link: "https://jobs.lever.co/crypto/194f5dd5-44cc-4cda-9b29-30c8eb7e134f" },
+  { title: "3D Designer", location: "Singapore, Singapore", link: "https://jobs.lever.co/crypto/2cab62d5-09f9-40ae-9b0a-a6b6d8fe7b40" },
+  { title: "Account Manager - AMER", location: "Canada", link: "https://jobs.lever.co/crypto/928be539-d767-4112-9794-53b4dbfaf5c7" },
+  { title: "Account Manager - AMER", location: "Miami, Florida", link: "https://jobs.lever.co/crypto/b729bfdb-a474-4bdf-b008-4ec29020003f" },
+  { title: "AI Content Creator", location: "Madrid, Spain", link: "https://jobs.lever.co/crypto/0698b3a2-bc81-4c0f-ba4a-6a4bd926ba4c" }
+];

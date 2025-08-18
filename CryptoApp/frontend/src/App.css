@@ -1,0 +1,1734 @@
+body {
+    margin: 0px;
+}
+
+.ul-Navigation li {
+    display: inline-flex;
+    padding: 12px;
+}
+
+.ul-Navigation {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    left: 850px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 500;
+    top: 5px;
+}
+
+.img-Navigation {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 25px;
+    left: 80px;
+}
+
+.header-Navigation nav {
+    display: inline-flex;
+}
+
+.header-Navigation {
+    background-color: #061121;
+}
+
+.ul-Navigation button {
+    border-radius: 14px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.section1-HomePage h1 {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: whitesmoke;
+}
+
+.section1-HomePage p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: rgb(192, 192, 192)
+}
+
+.section1-HomePage ul {
+    display: grid;
+    place-items: center;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+    color: #D3D3D3;
+    margin-top: 30px;
+}
+
+.blue-words {
+    color: #1199FA;
+}
+
+.section1-HomePage img {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: grid;
+    place-items: center;
+    width: 420px;
+    height: 740px;
+}
+
+.section1-HomePage div {
+    display: grid;
+    place-items: center;
+}
+
+.section2-HomePage {
+    color: white;
+}
+
+.section2-HomePage section {
+    margin-bottom: 20px;
+}
+
+.section2-HomePage h4 {
+    text-align: center;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 20px;
+}
+
+.section2-HomePage h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section2-HomePage h5 {
+    margin-top: 30px;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 40px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+.section2-HomePage hr {
+    width: 100%;
+}
+
+.section2-HomePage table {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    place-items: center;
+    margin-bottom: 60px;
+}
+
+
+.ul-name {
+    font-weight: bold;
+    margin-top: 2rem;
+    position: relative;
+    right: 7rem;
+    text-align: left;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.ul-symbol {
+    color: rgb(192, 192, 192);
+    font-size: 16px;
+    position: relative;
+    top: 0rem;
+    right: 4.5rem;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.ul-price {
+    font-weight: bold;
+    display: grid;
+    grid-auto-rows: auto;
+    row-gap: 10px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    right: 25px;
+    padding-bottom: 15px;
+}
+
+.ul-change {
+    color: rgb(230, 75, 96);
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.ul-cap {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 90px;
+    text-align: left;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.green {
+    color: rgb(32, 188, 164);
+    font-weight: bold;
+}
+
+.red {
+    color: rgb(230, 75, 96);
+    font-weight: bold;
+}
+
+.section3-HomePage {
+    color: white;
+    background-color: #061121;
+}
+
+.section3-HomePage h4 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+}
+
+.section3-HomePage h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    top: 50px;
+}
+
+.section3-HomePage div {
+    display: grid;
+    place-items: center;
+    position: relative;
+    right: 70px;
+}
+
+.section3-HomePage img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 340px;
+    height: 340px;
+}
+
+.section3-HomePage ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 455px;
+    padding: 0;
+    gap: 400px;
+    font-size: 18px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+}
+
+.section3-HomePage li {
+    text-align: center;
+}
+
+.adjustment {
+    text-align: center;
+    margin: 5px;
+    font-size: 37.5px;
+    color: #1199FA;
+}
+
+.button-div {
+    display: grid;
+    place-items: center;
+    position: relative;
+    left: 10px;
+    margin-top: 70px;
+}
+
+.section3-HomePage a {
+    text-decoration: none;
+    color: white;
+}
+
+.section3-HomePage button {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #061121;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.section3-HomePage button:hover {
+    background-color: white;
+    color: #061121;
+}
+
+.section4-HomePage {
+    color: white;
+    background-color: #0B1426;
+    height: 650px;
+}
+
+.section4-HomePage a {
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+.section4-HomePage img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 35px;
+    left: 100px;
+}
+
+.upper-hr {
+    width: 85%;
+    position: relative;
+    left: 75px;
+    color: #323C52;
+    border-width: 1px;
+}
+
+.middle-hr {
+    width: 95%;
+    position: relative;
+}
+
+.lower-hr {
+    width: 95%;
+}
+
+.section4-HomePage ul {
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section4-HomePage p {
+    font-weight: 300;
+    color: rgb(192, 192, 192);
+}
+
+.upper-p {
+    text-align: left;
+    margin-bottom: 30px;
+    width: 95%;
+    position: relative;
+    left: 37.5px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.lower-p {
+    text-align: left;
+    width: 95%;
+    position: relative;
+    left: 37.5px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: #323C52;
+}
+
+.end-p {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: #323C52;
+    text-align: right;
+    position: relative;
+    right: 35px;
+}
+
+.text-div {
+    display: grid;
+    place-items: center;
+}
+
+.section1-LevelUp {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 110px;
+    left: 160px;
+}
+
+.levelup-div {
+    position: relative;
+    bottom: 20px;
+}
+
+.section1-LevelUp h1 {
+    font-size: 80px;
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.section1-LevelUp p {
+    font-size: 25px;
+    text-align: left;
+    width: 450px;
+    position: relative;
+    left: 162.5px;
+    bottom: 90px;
+}
+
+.btn-div {
+    position: relative;
+    bottom: 70px;
+}
+
+.left-btn {
+    width: 160px;
+    height: 50px;
+    position: relative;
+    left: 162.5px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-btn {
+    width: 175px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.percentages-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 400px;
+    bottom: 30px;
+    height: 150px;
+}
+
+.stocks-div {
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.banking-div {
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.cards-div {
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 150px;
+    background-color: gray;
+    margin: 0 20px;
+    position: relative;
+    top: 15px;
+}
+
+.section2-LevelUp {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section2-LevelUp img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 150px;
+    left: 160px;
+}
+
+.section2-LevelUp h1 {
+    font-size: 80px;
+    position: relative;
+    bottom: 10px;
+    left: 250px;
+}
+
+.section2-LevelUp h5 {
+    font-size: 16px;
+    position: relative;
+    bottom: 135px;
+    left: 620px;
+    color: #1199FA;
+}
+
+.section2-LevelUp h3 {
+    font-size: 50px;
+    width: 450px;
+    position: relative;
+    left: 162.5px;
+    bottom: 120px;
+}
+
+.section2-LevelUp p {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: left;
+    width: 450px;
+    position: relative;
+    left: 162.5px;
+    bottom: 140px;
+}
+
+.section3-LevelUp {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.S3-img-div {
+    display: flex;
+    justify-content: right;
+}
+
+.section3-LevelUp img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 150px;
+    right: 540px;
+}
+
+.section3-LevelUp h1 {
+    font-size: 80px;
+    text-align: right;
+    position: relative;
+    right: 160px;
+    bottom: 5px;
+}
+
+.section3-LevelUp h5 {
+    font-size: 16px;
+    color: #1199FA;
+    text-align: right;
+    position: relative;
+    bottom: 80px;
+    right: 412.5px;
+}
+
+.section3-LevelUp h3 {
+    color: #323C52;
+    font-size: 50px;
+    text-align: left;
+    position: relative;
+    bottom: 110px;
+    width: 450px;
+    left: 985px;
+}
+
+.section3-LevelUp p {
+    color: #1199FA;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 200;
+    width: 450px;
+    position: relative;
+    left: 985px;
+    bottom: 130px;
+}
+
+.section4-LevelUp {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.S4-div {
+    position: relative;
+    top: 20px;
+}
+
+.section4-LevelUp img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 67.5px;
+    left: 160px;
+}
+
+.section4-LevelUp h1 {
+    font-size: 80px;
+    position: relative;
+    bottom: 90px;
+    left: 250px;
+}
+
+.section4-LevelUp h3 {
+    font-size: 50px;
+    width: 400px;
+    position: relative;
+    left: 162.5px;
+    bottom: 130px;
+}
+
+.section4-LevelUp p {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: left;
+    width: 450px;
+    position: relative;
+    left: 162.5px;
+    bottom: 140px;
+}
+
+.section4-LevelUp button {
+    width: 175px;
+    height: 50px;
+    position: relative;
+    left: 160px;
+    bottom: 120px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.section4-LevelUp button:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.section5-LevelUp {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section5-LevelUp img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 150px;
+    right: 500px;
+}
+
+.section5-LevelUp h1 {
+    font-size: 80px;
+    text-align: right;
+    position: relative;
+    right: 160px;
+    bottom: 5px;
+}
+
+.section5-LevelUp h3 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    position: relative;
+    bottom: 60px;
+    width: 450px;
+    left: 945px;
+}
+
+.section5-LevelUp p {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 200;
+    width: 450px;
+    position: relative;
+    left: 945px;
+    bottom: 80px;
+}
+
+.section5-LevelUp button {
+    width: 175px;
+    height: 50px;
+    position: relative;
+    left: 945px;
+    bottom: 70px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.section5-LevelUp button:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.section6-LevelUp {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+    left: 110px;
+}
+
+.midnight-div {
+    width: 200px;
+    height: 400px;
+    border-radius: 12px;
+    border-color: silver;
+}
+
+.ruby-div {
+    width: 200px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.benefits-btn {
+    display: grid;
+    place-items: center;
+}
+
+.benefits-btn button {
+    width: 175px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.benefits-btn button:hover {
+    color: black;
+    background-color: white;
+}
+
+.section1-Benefits {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section1-Benefits h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    position: relative;
+    top: 30px;
+}
+
+.section1-Benefits div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.section1-Benefits p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section1-Benefits span {
+    font-size: 10px;
+    position: relative;
+    bottom: 2.5px;
+    color: #1199FA;
+}
+
+.section1-Benefits hr {
+    width: 90%;
+}
+
+.levels-table {
+    background-color: rgb(6, 17, 33);
+    border-radius: 16px;
+}
+
+.levels-table th {
+    font-size: 26px;
+}
+
+.vertical-line-levels {
+    width: 2px;
+    height: 130px;
+    background-color: gray;
+    margin: 0 20px;
+    position: relative;
+    top: 15px;
+}
+
+.levels-table p {
+    font-size: 12px;
+}
+
+.levels-table button {
+    background-color: 'white';
+    font-weight: 'bold';
+    border-radius: '12px';
+}
+
+.section2-Benefits {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: black;
+    position: relative;
+    bottom: 30px;
+}
+
+.cards-table {
+    background-color: rgb(6, 17, 33);
+    border-radius: 16px;
+    position: relative;
+
+}
+
+.section2-Benefits {
+    text-align: left;
+    font-size: 16px;
+}
+
+.section3-Benefits {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: black;
+    position: relative;
+    bottom: 60px;
+}
+
+.crypto-table {
+    background-color: rgb(6, 17, 33);
+    border-radius: 16px;
+    position: relative;
+}
+
+.section4-Benefits {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: black;
+    height: 600px;
+    position: relative;
+    bottom: 90px;
+}
+
+.stocks-table {
+    background-color: rgb(6, 17, 33);
+    border-radius: 16px;
+}
+
+.section4-Benefits span {
+    font-size: 10px;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    color: #1199FA;
+}
+
+.section4-Benefits p {
+    color: #D3D3D3;
+}
+
+.section5-Benefits {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: black;
+    position: relative;
+    bottom: 120px;
+}
+
+.banking-table {
+    background-color: rgb(6, 17, 33);
+    border-radius: 16px;
+}
+
+.section5-Benefits span {
+    font-size: 8px;
+    left: 5px;
+    bottom: 5px;
+    position: relative;
+    color: #1199FA;
+}
+
+.section6-Benefits {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    height: 0px;
+}
+
+.services-table {
+    background-color: rgb(6, 17, 33);
+    border-radius: 16px;
+    position: relative;
+}
+
+.section1-Basket {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section1-Basket div {
+    position: relative;
+    left: 120px;
+    top: 180px;
+}
+
+.section1-Basket h1 {
+    font-size: 60px;
+}
+
+.section1-Basket p {
+    font-size: 25px;
+    width: 400px;
+    font-weight: bold;
+    color: #D3D3D3;
+    position: relative;
+    bottom: 12.5px;
+}
+
+.section1-Basket button {
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section1-Basket button:hover {
+    color: white;
+    background-color: transparent;
+    border-color: #1199FA;
+}
+
+.section2-Basket {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+.section2-Basket h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.baskets-div {
+    display: flex;
+    gap: 20px;
+}
+
+.baskets-div div {
+    height: 145px;
+    width: 410px;
+    border: 2px solid #1199FA;
+    border-radius: 24px;
+}
+
+.section3-Basket {
+    background-color: white;
+    color: #0B1426;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    margin-top: 120px;
+}
+
+.section3-Basket h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+    position: relative;
+    top: 50px;
+}
+
+.section3-Basket button {
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #0B1426;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.section3-Basket button:hover {
+    color: #0B1426;
+    background-color: transparent;
+    border-color: #0B1426;
+}
+
+.section4-Basket {
+    background-color: #D3D3D3;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: white;
+    height: 750px;
+}
+
+.section4-Basket button {
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #0B1426;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.section4-Basket button:hover {
+    color: #0B1426;
+    background-color: transparent;
+    border-color: #0B1426;
+}
+
+.section4-Basket ol {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section4-Basket li::marker {
+    color: #1199FA;
+}
+
+.section1-Pay {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section2-Pay {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    height: 900px;
+}
+
+.section2-Pay h1 {
+    text-align: center;
+    position: relative;
+    left: 320px;
+    top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 50px;
+    width: 900px;
+    background: linear-gradient(#1199FA, #0B1426);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section3-Pay {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: white;
+    position: relative;
+    bottom: 141px;
+    height: 1000px;
+}
+
+.section3-Pay h1 {
+    text-align: center;
+    position: relative;
+    left: 320px;
+    top: 50px;
+    margin-bottom: 150px;
+    font-size: 50px;
+    width: 900px;
+    background: linear-gradient(#1199FA, #0B1426);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section4-Pay {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: white;
+    color: black;
+    position: relative;
+    bottom: 183px;
+    height: 750px;
+}
+
+.section4-Pay h1 {
+    text-align: center;
+    position: relative;
+    left: 310px;
+    top: 50px;
+    margin-bottom: 150px;
+    font-size: 50px;
+    width: 900px;
+}
+
+.section4-Pay button {
+    color: black;
+    background-color: white;
+    border: 0px;
+}
+
+.section4-Pay button:hover {
+    color: white;
+    background-color: black;
+}
+
+.section5-Pay {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: white;
+    color: black;
+    position: relative;
+    bottom: 225px;
+    height: 750px;
+}
+
+.section5-Pay h1 {
+    text-align: center;
+    position: relative;
+    left: 320px;
+    top: 50px;
+    font-size: 50px;
+    width: 900px;
+}
+
+.section6-Pay {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: white;
+    color: black;
+    position: relative;
+    bottom: 225px;
+    height: 850px;
+}
+
+.section6-Pay h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 150px;
+    font-size: 50px;
+    width: 900px;
+    background: linear-gradient(#1199FA, #0B1426);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section1-Prime {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section2-Prime {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    bottom: 900px;
+}
+
+.section2-Prime h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 150px;
+    font-size: 50px;
+}
+
+.section3-Prime {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    bottom: 800px;
+}
+
+.section3-Prime h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 150px;
+    font-size: 50px;
+}
+
+.section2-Bitcoin {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 20px;
+}
+
+.section2-Bitcoin button {
+    color: white;
+    background-color: #0B1426;
+}
+
+.section2-Bitcoin button:hover {
+    border: 2px solid #1199FA;
+    background-color: white;
+    color: #0B1426;
+}
+
+.section3-Bitcoin {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background: linear-gradient(#000080, #061121);
+    height: 250px;
+    position: relative;
+    bottom: 110px;
+}
+
+.section4-Bitcoin {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 20px;
+    height: 4020px;
+    position: relative;
+    bottom: 160px;
+}
+
+.section5-Bitcoin {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 210px;
+}
+
+.section6-Bitcoin {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 210px;
+    background: linear-gradient(to left, #000080, #061121);
+}
+
+.section7-Bitcoin {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 260px;
+}
+
+.section2-Ethereum {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 50px;
+    height: 1810px;
+}
+
+.section3-Ethereum {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background: linear-gradient(#000080, #061121);
+    height: 250px;
+    position: relative;
+    bottom: 50px;
+}
+
+.section4-Ethereum {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 100px;
+    height: 5000px;
+}
+
+.section2-Crypto {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 50px;
+    height: 7160px;
+}
+
+.section1-Prices {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: white;
+}
+
+.section2-Prices {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    height: 200px;
+    position: relative;
+    bottom: 25px;
+}
+
+.section3-Prices {
+    color: black;
+    background-color: whitesmoke;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    bottom: 80px;
+    height: 400px;
+}
+
+.section4-Prices {
+    color: black;
+    background-color: whitesmoke;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    bottom: 170px;
+    padding: 40px 80px;
+}
+
+.table-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-x: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prices-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+    table-layout: fixed;
+    /* ensures equal column widths */
+}
+
+.table-head th {
+    font-size: 20px;
+    padding: 16px 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.table-body td {
+    padding: 16px 12px;
+    font-size: 18px;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+
+.name {
+    font-weight: bold;
+    text-align: left;
+    width: 25%;
+}
+
+.price {
+    text-align: right;
+    width: 20%;
+}
+
+.change {
+    text-align: center;
+    width: 15%;
+    font-weight: bold;
+}
+
+.market-cap {
+    text-align: left;
+    width: 40%;
+}
+
+.up {
+    color: #1abc9c;
+}
+
+.down {
+    color: #e74c3c;
+}
+
+.table-body tr:hover {
+    background-color: #f9f9f9;
+}
+
+.section1-AboutUs {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section1-AboutUs button {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    color: #0B1426;
+    background-color: white;
+    border: 0px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.section1-AboutUs button:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px #1199FA solid;
+}
+
+.section2-AboutUs {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    top: 300px;
+}
+
+.section2-AboutUs button {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: transparent;
+    border: 2px white solid;
+    border-radius: 24px;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+}
+
+.section3-AboutUs {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section3-AboutUs button {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    color: white;
+    background-color: transparent;
+    border: 2px white solid;
+    border-radius: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.section4-AboutUs {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section5-AboutUs {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section5-AboutUs button {
+    font-size: 30px;
+    border: 0px;
+    background-color: transparent;
+    color: #D3D3D3;
+    text-align: left;
+    width: 250px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section5-AboutUs button:hover {
+    color: white;
+}
+
+.section6-AboutUs {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    top: 100px;
+}
+
+.section6-AboutUs button {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    color: white;
+    background-color: transparent;
+    border: 2px white solid;
+    border-radius: 24px;
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+}
+
+.section1-Roadmap {
+    height: 2500px;
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+}
+
+.section7-Roadmap {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background: linear-gradient(to bottom, black, #0047AB);
+    height: 600px;
+}
+
+.section1-Partners {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    height: 1080px;
+}
+
+.section2-Partners {
+    background-color: white;
+    height: 750px;
+}
+
+.section3-Partners {
+    height: 1080px;
+}
+
+.section4-Partners {
+    height: 1080px;
+}
+
+.section1-Security {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    height: 1000px;
+}
+
+.section2-Security {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    bottom: 20px;
+}
+
+.section3-Security {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    bottom: 20px;
+    background-color: #E7E6E6;
+    height: 1500px;
+}
+
+.section4-Security {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    bottom: 36px;
+    background-color: rgb(6, 17, 33);
+    height: 1300px;
+}
+
+.section1-Careers {
+    color: white;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.section2-Careers {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 60px;
+    height: 850px;
+}
+
+.section2-Careers button {
+    font-size: 30px;
+    font-weight: bold;
+    border: 0px;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+}
+
+.section2-Careers button:hover {
+    color: black;
+}
+
+.section3-Careers {
+    color: black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: whitesmoke;
+    position: relative;
+    top: 435px;
+    height: 875px;
+}
+
+.section4-Careers {
+    color: black;
+    background-color: whitesmoke;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    position: relative;
+    top: 385px;
+    height: 1000px;
+}
+
+.pricesDetail {
+    color: black;
+    background-color: whitesmoke;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    height: 1200px;
+}
+
+.converter {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: white;
+    background-color: rgb(21, 29, 50);
+}
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px 40px 10px 10px;
+    border-radius: 8px;
+    border: 1px solid #555;
+
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.sign-up {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: white;
+}
+
+.login {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: white;
+    height: 750px;
+}
+
+.code1-div p {
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+    width: 500px;
+    color: #D3D3D3;
+}
+
+.code1-div img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 170px;
+}
+
+.code1-div ol {
+    position: relative;
+    left: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.code2-div div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.code2-div input {
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #D3D3D3;
+    background-color: #061121;
+    border: 2px white solid;
+    border-radius: 12px;
+}
+
+.code2-div button {
+    position: relative;
+    top: 20px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #1199FA;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.code2-div p {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 400px;
+    color: #D3D3D3;
+}
